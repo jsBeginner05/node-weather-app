@@ -22,7 +22,7 @@ weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
 
     const finalLoc = locationInput.value
-    const url = `http://localhost:3000/weather?address=${finalLoc}`
+    const url = `/weather?address=${finalLoc}`
 
 
     message_1.textContent='Data is loading...'
